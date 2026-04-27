@@ -59,13 +59,12 @@ p {
 }
 
 strong {
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .free-text {
   color: gray;
-  margin-bottom: 20px;
-
+  font-size: 10px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -154,8 +153,25 @@ li {
   display: inline-block;
 }
 
-.products {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+article {
+  display: grid;
+  column-gap: 40px;
+}
+
+.price-detail {
+  margin-top: 20px;
+  grid-column: 2/3;
+}
+
+.product-detail {
+  margin-top: 20px;
+  grid-column: 3/4;
+}
+
+.product {
+  grid-column: 1/4;
+}
+
+button {
+  grid-column: 1/4;
 }
