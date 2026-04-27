@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+article {
+  background-color: #f7f7f7;
+  border: 5px solid black;
+  width: 825px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.sale-tag {
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  background-color: rgb(251, 99, 99);
+  display: inline;
+  padding: 10px;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: -15px;
+  left: -30px;
+}
+
+.product {
+  background-color: rgba(216, 214, 214, 0.321);
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
+strong {
+  font-size: 16px;
+}
+
+.free-text {
+  color: gray;
+  margin-bottom: 20px;
+
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.desc {
+  margin-bottom: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  height: 50px;
+  width: 100%;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  height: 50px;
+  width: 100%;
+  border: none;
+  background-color: #f7f7f7;
+  color: black;
+  font-weight: bold;
+  border-top: 5px solid black;
+}
+
+ul {
+  list-style: square;
+}
+
+li {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.overall-container {
+  padding-top: 20px;
+}
+.container-1 {
+  height: 22px;
+  width: 22px;
+  background-color: #000;
+  display: inline-block;
+  margin-right: 10px;
+}
+.container-2 {
+  height: 22px;
+  width: 22px;
+  background-color: #2f6ee2;
+  display: inline-block;
+  margin-right: 10px;
+}
+.container-3 {
+  height: 22px;
+  width: 22px;
+  background-color: #ec2f2f;
+  display: inline-block;
+  margin-right: 10px;
+}
+.container-4 {
+  height: 22px;
+  width: 22px;
+  background-color: #f0bf1e;
+  display: inline-block;
+  margin-right: 10px;
+}
+.container-5 {
+  height: 22px;
+  width: 22px;
+  background-color: #90cc20;
+  display: inline-block;
+  margin-right: 10px;
+}
+.container-6 {
+  height: 22px;
+  width: 22px;
+  background-color: #885214;
+  display: inline-block;
+}
+
+.products {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
